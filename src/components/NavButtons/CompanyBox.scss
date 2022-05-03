@@ -1,0 +1,19 @@
+.company-box-container{
+  background: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 2.5rem;
+  left: 14rem; 
+  padding: .5rem ;
+  height: 7.5rem;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 10;
+  div{
+    padding:.5rem; 
+    span{
+      width: 6rem;
+      text-align: justify;
+      
+    }
+  }
+}

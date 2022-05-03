@@ -1,0 +1,24 @@
+.features-box-container{
+  background: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 2.5rem;
+  left: 3rem;
+  padding: 1rem ;
+  overflow: auto;
+  height: 11rem;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 10;
+  div{
+
+    padding:.5rem;
+    display:flex;
+    gap: .5rem;
+    justify-content: space-between;
+    
+    span{
+      width: 6rem;
+      text-align: justify;
+    }
+  }
+}

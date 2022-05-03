@@ -1,0 +1,60 @@
+header {
+  max-height: 5.555555555555555rem;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.branding{
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  nav{
+    display: flex;
+  }
+  ul{
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 500;
+    align-items: center;
+ 
+    li {
+      color: hsl(0, 0%, 41%);
+      cursor: pointer;
+      &:hover{
+
+        color: hsl(0, 0%, 8%);
+      }
+      //change the color of the arrow on hover.
+      &:hover svg path{
+        stroke: hsl(0, 0%, 8%);
+      }
+    }
+  }
+
+}
+
+.login-and-register-button-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  button{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    height: 2rem;
+    width: 5rem;
+    // padding: .5rem;
+    &:hover {
+      border: solid black 2px;
+      // padding: .5rem;
+      border-radius: .7rem;
+    }
+  }
+}
